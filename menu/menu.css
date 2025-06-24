@@ -1,6 +1,6 @@
 :root {
-  --main-color: #000000;
-  --secondary-color: #ff0000;
+   --main-color: #d70000;
+  --secondary-color: #000000;
 }
 
 html {
@@ -147,24 +147,34 @@ color:  var(--secondary-color);
  text-align: center;
 
 padding-bottom: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+gap: 0px;
 
 }
 
-.menu .col{
+.container{
+
+  width: 90%;
+}
+
+/* .menu .col{
   
     direction: rtl;
- 
+ width: 200px;
 height: 300px;
 margin: 50px;
 background-color:  var(--secondary-color);
 
-}
+} */
 
  
  
 .menu  img{
-
- margin-top: -7PX;
+  margin: 0px;
+  padding: 0px;
+  height: 800px;
+  width: 300px;
  
 }
  
@@ -219,10 +229,10 @@ line-height: 2;
   .container form  a{
 
 font-size: 40px;
-background-color: rgba(0, 0, 0, 0.447);
+background-color: rgba(0, 0, 0, 0.789);
 color: #ffffff;
 
-border: 2px solid rgb(255, 0, 0);
+border: 2px solid rgb(255, 255, 255);
 padding: 5px;
  
  
@@ -230,7 +240,7 @@ padding: 5px;
  }
  
   .container form a:hover{
-color: var(--secondary-color);
+color: var(--main-color);
 font-size: 45px;
  
 

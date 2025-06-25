@@ -58,6 +58,7 @@ body {
 /* start header */
 .header {
   background-color: #ffffff;
+  width: 103%;
 }
 
 .header .container {
@@ -93,6 +94,7 @@ body {
 
 .header .container .name {
   color: #ff0000;
+  
 }
 
 .header .container .name span {
@@ -192,8 +194,7 @@ padding-bottom: 50px;
 }
 
 .menu  img{
-width: 100%;
- margin-top: -7PX;
+  margin-top: -7PX;
  
 }
 
